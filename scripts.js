@@ -61,7 +61,7 @@ ScrollReveal({
 $("#contact-form").submit((e)=>{
     e.preventDefault()
     $.ajax({
-        url:"https://script.google.com/macros/s/AKfycbygLceP2Q--hK3KhF_xSpWi_eFQPLw_Zw0rP-uQ3dGkhTUQFnAeVyMPWAzJDMTYIVQ4ZA/exec",
+        url:"https://script.google.com/macros/s/AKfycbx_e_elBudYYFJ06UESjUeKRzWMoOHmCSMT3aY4-jf4AjdsFVPFZUmejGKw9eM-gdhN1A/exec",
         data:$("#contact-form").serialize(),
         method:"post",
         success:function (response){
