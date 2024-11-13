@@ -479,17 +479,26 @@ nav a.active {
     transform: translate(-50%, 0%);
     margin-left: 2rem;
   }
+  .features{
+    margin-left: 5rem;
+  }
 }
 
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
   }
+  .features{
+    margin-left: 5rem;
+  }
 }
 @media (max-width: 991px) {
   .header {
     padding: 2rem 3%;
     
+  }
+  .features{
+    margin-left: 5rem;
   }
   section {
     padding: 10rem 3% 10rem 2rem;
@@ -547,6 +556,9 @@ nav a.active {
     left: 48%;
     max-height: 180px;
   }
+  .features{
+    margin-left: 5rem;
+  }
 }
 @media (max-width: 550px) {
   .education h4 {
@@ -559,6 +571,9 @@ nav a.active {
   .education {
     left: 46%;
     max-height: 180px;
+  }
+  .features{
+    margin-left: 5rem;
   }
  
 }
@@ -584,6 +599,9 @@ nav a.active {
   .footer-text p {
     font-size: 1.6rem;
   }
+  .features{
+    margin-left: 3rem;
+  }
 }
 @media (max-width: 320px) {
   html {
@@ -594,5 +612,8 @@ nav a.active {
   }
   .skills-list h1 {
     font-size: 1.5rem;
+  }
+  .features{
+    margin-left: 5rem;
   }
 }
