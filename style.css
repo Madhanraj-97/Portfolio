@@ -467,6 +467,10 @@ nav a.active {
   box-shadow: 0 0 1rem var(--main-color);
 }
 
+.features{
+  margin-left: 5rem;
+}
+
 /* Break points */
 @media (max-width: 1243px) {
   .education {
